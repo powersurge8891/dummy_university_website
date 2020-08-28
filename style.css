@@ -1,0 +1,88 @@
+/* beginning of topmost part */
+.topmost {
+  background-color: rgba(51, 47, 47, 0.4);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topmost a i {
+  padding: 5px;
+  color: white;
+}
+/* end of topmost part */
+
+/* beginning of navbar */
+.myNavbar {
+  background-color: rgb(238, 39, 39);
+}
+
+.myNavbar div ul li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* end of navbar */
+
+.firstCol {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstCol a {
+  background-color: rebeccapurple;
+  color: white;
+  text-transform: capitalize;
+  width: 350px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+#frontImage {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  #frontImage {
+    height: 300px;
+  }
+}
+
+.firstRow {
+  margin-bottom: 20px;
+}
+
+.secondRow {
+  margin-bottom: 20px;
+}
+
+.thirdRow {
+  margin-bottom: 20px;
+}
+
+.mcuText {
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myVid video {
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+}
+
+.myFirstImage img {
+  position: relative;
+  width: 100%;
+  top: 35px;
+}
+.mySecondImage img {
+  width: 100%;
+}
+
+nav ul li:hover {
+  background-color: white;
+}
